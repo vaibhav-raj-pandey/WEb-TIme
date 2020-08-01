@@ -5,3 +5,5 @@ Hello all this is a miniscule project of mine keeping track of your daily visiti
 
 Increases porductivity.
 
+It is a chrome extension , you can clone the files and add extension from Load Unpacked 
+in chrome://extensions in developer mode
