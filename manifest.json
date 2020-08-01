@@ -1,0 +1,22 @@
+{
+	"name":"timer",
+	"version":"1.0",
+	"description":"calculates time on web pages",
+	"background":{
+		"scripts":["backround.js"]
+	},
+	"icons":{
+		"128":"images/icon128.png",
+		"48":"images/icon48.png",
+		"16":"images/icon16.png"
+	},
+	"browser_action":{
+		"default_icon":"images/icon16.png",
+		"default_popup":"popup.html"
+	},
+  "permissions": [
+    "idle",
+    "tabs"
+  ],
+  	"manifest_version":2
+}

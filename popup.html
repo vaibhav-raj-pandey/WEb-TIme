@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+  <head>
+    <style type="text/css">
+      body {
+          width: 400px;
+          font-family: helvetica, arial, sans-serif;
+          font-size: 13px;
+      }
+      #nav {
+          float: right;
+      }
+      a {
+          text-decoration:none;
+          color: black;
+      }
+      a:focus {
+          outline: none;
+      }
+      #data {
+          margin-top: 10px;
+      }
+      #table_div {
+          margin-top: 15px;
+      }
+      .active {
+          font-weight: bold;
+      }
+      #nodata {
+          display: none;
+          color: red;
+          font-weight: bold;
+      }
+      #nodata a {
+          text-decoration: underline;
+          color: red;
+      }
+      table, th, td {
+  border: 1px solid black;
+}
+    </style>
+   <script src="popup.js"></script>
+  </head>
+
+  <body id='bod'>
+    <div id="nav">
+      <a id="today" href="#">Today</a>
+      &nbsp;|&nbsp;
+      <a id="all" href="#">All Time</a>
+    </div>
+    <div style="clear:both"></div>
+    <div id="data">
+      <span id="nodata">Start browsing to collect usage data.</span>
+    <table id='tb'>
+     
+    </table>
+    </div>
+  </body>
+</html>
